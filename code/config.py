@@ -6,7 +6,7 @@ class HyperParameter:
         self.current_time = datetime.now().strftime('%b%d_%H-%M-%S')
         self.kfold = 5 
 
-        self.data_root = './data/dta-5fold-dataset'  
+        self.data_root = './data'  
         self.dataset = 'davis'
         self.running_set = 'novel-pair'
         self.dataset_columns = ['drug_id', 'prot_id', 'label']
